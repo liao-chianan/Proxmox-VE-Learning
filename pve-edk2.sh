@@ -1,4 +1,6 @@
 #Building the fixed pve-edk2-firmware
+#Use Debian 9 (Stretch) as a template to create a new container.Then run this script
+
 # Add missing locale
 export LC_ALL=en_US.UTF-8
 echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen
